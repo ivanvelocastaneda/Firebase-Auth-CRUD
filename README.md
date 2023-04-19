@@ -1,33 +1,70 @@
-# Firebase-Auth-CRUD
-Assignment Description: You are required to continue developing your midterm shopping cart application by integrating Firebase for data management and implementing CRUD (Create, Read, Update, Delete) operations. The application allows users to view a list of products, add products to a shopping cart, and manage the items in the cart. You need to follow the instructions below to complete the assignment.
+# Getting Started with Create React App
 
-Requirements:
-npm install firebase
-npm install bootstrap
-npm install react-bootstrap
-npm install react-router-dom
-npm install react-multi-carousel
+This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
-When you create you firebase app, you firebaseConfig function will be different than the one provided here.  
+## Available Scripts
 
-Instructions:
+In the project directory, you can run:
 
-Initialize Firebase: a. Create a Firebase account if you don't have one. b. Create a new Firebase project for this assignment. c. Get the Firebase configuration settings (apiKey, authDomain, projectId, etc.) from the Firebase console. d. Install the Firebase SDK in your ReactJS application using npm or yarn. e. Set up Firebase in your ReactJS application by initializing it with the configuration settings obtained in step c.
-Authentication: a. Implement Firebase authentication in your application to allow users to sign up and log in. b. Create sign-up and log-in forms/components that capture user input for email and password. c. Implement Firebase's authentication methods (such as createUserWithEmailAndPassword, signInWithEmailAndPassword, etc.) to handle user sign-up and log-in functionality. d. Display appropriate error messages for failed sign-up/log-in attempts. e. Add a log-out functionality using Firebase's signOut method.
-CRUD Operations: a. Implement CRUD operations for managing products in the shopping cart using Firebase's Realtime Database or Firestore. b. Create components for displaying a list of products, adding products to the cart, updating product quantities, and removing products from the cart. c. Implement Firebase's database methods (such as set, get, update, remove, etc.) to perform CRUD operations on product data. d. Use Firebase's real-time syncing capabilities to keep the cart data in sync across multiple devices/browsers.
-UI/UX: a. Enhance the user interface and user experience of the application to make it visually appealing and user-friendly. b. Implement proper error handling and validation to provide a seamless experience to users. c. Add appropriate loading indicators or placeholders to indicate asynchronous operations.
+### `npm start`
 
-Submission Requirements:
-Submit the GitHub repository link of your completed assignment.
-Include a README file in your repository with instructions on how to run and use your application.
-Provide a brief explanation of your implementation choices, challenges faced, and any additional features or improvements made.
-Grading Criteria:
+Runs the app in the development mode.\
+Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
 
-Successful integration of Firebase in the ReactJS shopping cart application ( 8 points)
-Proper implementation of authentication functionality (sign-up, log-in, log-out) using Firebase (9 points)
-Proper implementation of CRUD operations for managing products in the shopping cart using Firebase (10 points)--Did not get to this point, still a work in progress and plan on finish it in the near future
-Code quality, organization, and documentation (3 points)
-Creativity and additional features/improvements ( Bonus 5 points)
+The page will reload when you make changes.\
+You may also see any lint errors in the console.
 
+### `npm test`
 
+Launches the test runner in the interactive watch mode.\
+See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
 
+### `npm run build`
+
+Builds the app for production to the `build` folder.\
+It correctly bundles React in production mode and optimizes the build for the best performance.
+
+The build is minified and the filenames include the hashes.\
+Your app is ready to be deployed!
+
+See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+
+### `npm run eject`
+
+**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+
+If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+
+Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+
+You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+
+## Learn More
+
+You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+
+To learn React, check out the [React documentation](https://reactjs.org/).
+
+### Code Splitting
+
+This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
+
+### Analyzing the Bundle Size
+
+This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
+
+### Making a Progressive Web App
+
+This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
+
+### Advanced Configuration
+
+This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
+
+### Deployment
+
+This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
+
+### `npm run build` fails to minify
+
+This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
